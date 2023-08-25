@@ -34,6 +34,16 @@ console.log(contohObj.id)
 console.log(contohObj.name)
 console.log(contohObj.age)
 
+// 2 :
+// - kalian tambah data kalian di arr + 1 temen kalian juga
+// - menggunakan looping, di dalam nya check condisi pake if utk print contohObj key id yang value nya dari index 0,3,6
+
+for (let i = 0; i < contohArray.length; i++) {
+  if(i === 0 || i === 3 || i === 6){
+    console.log(`salah satu contohObj yaitu : ${contohArray[i]}`)
+  }
+}
+
 
 // 3
 // masukkan data object dengan arr.push (Nirwana)
